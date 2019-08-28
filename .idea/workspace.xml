@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd09f4ea-92b9-4710-adc1-06998b7dd721" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/spring/app-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring/com/apress/prospring5/ch2/HelloWorldSpringDI.class" afterDir="false" />
+    <list default="true" id="dd09f4ea-92b9-4710-adc1-06998b7dd721" name="Default Changelist" comment="gradle">
+      <change afterPath="$PROJECT_DIR$/src/com/apress/prospring5/ch2/annotated/HelloWorldConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/apress/prospring5/ch2/annotated/HelloWorldSpringAnnotated.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/apress/prospring5/ch2/HelloWorldSpringDI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/apress/prospring5/ch2/HelloWorldSpringDI.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +15,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch2/HelloWorldSpringDI.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch2/annotated/HelloWorldConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+                <element signature="e#496#497#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch2/annotated/HelloWorldSpringAnnotated.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,8 +58,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -53,6 +77,8 @@
         <option value="$PROJECT_DIR$/src/com/apress/prospring5/ch2/decoupled/HelloWorldDecoupledWithFactory.java" />
         <option value="$PROJECT_DIR$/app-context.xml" />
         <option value="$PROJECT_DIR$/src/com/apress/prospring5/ch2/HelloWorldSpringDI.java" />
+        <option value="$PROJECT_DIR$/src/com/apress/prospring5/ch2/annotated/HelloWorldConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/com/apress/prospring5/ch2/annotated/HelloWorldSpringAnnotated.java" />
       </list>
     </option>
   </component>
@@ -73,6 +99,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -96,13 +123,12 @@
               <item name="spring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ch2" type="462c0819:PsiDirectoryNode" />
-              <item name="decoupled" type="462c0819:PsiDirectoryNode" />
+              <item name="annotated" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -110,7 +136,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566958359748" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566966743566" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -136,13 +162,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HelloWorldSpringDI">
+  <component name="RunManager" selected="Application.HelloWorldSpringAnnotated">
     <configuration name="HelloWorldDecoupledWithFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.apress.prospring5.ch2.decoupled.HelloWorldDecoupledWithFactory" />
       <module name="spring" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.apress.prospring5.ch2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorldSpringAnnotated" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.apress.prospring5.ch2.annotated.HelloWorldSpringAnnotated" />
+      <module name="spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.apress.prospring5.ch2.annotated.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,9 +205,11 @@
     <list>
       <item itemvalue="Application.HelloWorldDecoupledWithFactory" />
       <item itemvalue="Application.HelloWorldSpringDI" />
+      <item itemvalue="Application.HelloWorldSpringAnnotated" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HelloWorldSpringAnnotated" />
         <item itemvalue="Application.HelloWorldSpringDI" />
         <item itemvalue="Application.HelloWorldDecoupledWithFactory" />
       </list>
@@ -194,6 +235,8 @@
       <workItem from="1566924097288" duration="10000" />
       <workItem from="1566954791646" duration="3040000" />
       <workItem from="1566958566424" duration="430000" />
+      <workItem from="1566960508618" duration="1615000" />
+      <workItem from="1566963186338" duration="2606000" />
     </task>
     <task id="LOCAL-00001" summary="更新了配置文件">
       <created>1566921276424</created>
@@ -216,11 +259,25 @@
       <option name="project" value="LOCAL" />
       <updated>1566923862328</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="使用DI依赖注入">
+      <created>1566960602862</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1566960602862</updated>
+    </task>
+    <task id="LOCAL-00005" summary="gradle">
+      <created>1566961525299</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1566961525299</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5506000" />
+    <option name="totallyTimeSpent" value="9727000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -233,8 +290,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1605" height="1027" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22200896" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22712731" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -243,7 +301,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -252,8 +310,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32941177" />
       <window_info anchor="bottom" id="Spring" order="9" weight="0.32941177" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32834226" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4996801" weight="0.32834226" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5003199" side_tool="true" weight="0.32834226" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32941177" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -270,12 +328,40 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更新了配置文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新了配置文件" />
+    <MESSAGE value="使用DI依赖注入" />
+    <MESSAGE value="gradle" />
+    <option name="LAST_COMMIT_MESSAGE" value="gradle" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/msf.properties">
@@ -303,13 +389,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -439,10 +518,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spring.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gradle/5.6/gc.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch2/HelloWorldSpringDI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch2/annotated/HelloWorldConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch2/annotated/HelloWorldSpringAnnotated.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
