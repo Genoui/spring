@@ -7,4 +7,5 @@
     <bean id="renderer"
           class="com.apress.prospring5.ch2.decoupled.StandarOutMessageRenderer"
           p:messageProvider-ref="provider"/>
+
 </beans>

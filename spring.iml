@@ -7,6 +7,7 @@
           <file>file://$MODULE_DIR$/src/spring-config.xml</file>
           <file>file://$MODULE_DIR$/app-context.xml</file>
           <file>file://$MODULE_DIR$/src/xml-bean-factory-config.xml</file>
+          <file>file://$MODULE_DIR$/src/app-context-xml.xml</file>
         </fileset>
       </configuration>
     </facet>
