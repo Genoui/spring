@@ -12,6 +12,6 @@ public class ConfigurableMessageProvider implements MessageProvider {
 
     @Override
     public String getMessage() {
-        return null;
+        return message;
     }
 }

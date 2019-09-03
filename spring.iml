@@ -4,10 +4,13 @@
     <facet type="Spring" name="Spring">
       <configuration>
         <fileset id="fileset" name="Spring Application Context" removed="false">
+          <dependency>fileset</dependency>
           <file>file://$MODULE_DIR$/src/spring-config.xml</file>
           <file>file://$MODULE_DIR$/app-context.xml</file>
           <file>file://$MODULE_DIR$/src/xml-bean-factory-config.xml</file>
           <file>file://$MODULE_DIR$/src/app-context-xml.xml</file>
+          <file>file://$MODULE_DIR$/src/child-context.xml</file>
+          <file>file://$MODULE_DIR$/src/parent-context.xml</file>
         </fileset>
       </configuration>
     </facet>
