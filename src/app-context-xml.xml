@@ -2,14 +2,61 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-    <!--<bean id="provider"-->
-          <!--class="com.apress.prospring5.ch2.decoupled.HelloWorldMessageProvider"/>-->
-    <!--<bean id="renderer"-->
-          <!--class="com.apress.prospring5.ch2.decoupled.StandarOutMessageRenderer"-->
-          <!--p:messageProvider-ref="provider"/>-->
+    <bean id="provider"
+          class="com.apress.prospring5.ch2.decoupled.HelloWorldMessageProvider"/>
+    <bean id="renderer"
+          class="com.apress.prospring5.ch2.decoupled.StandarOutMessageRenderer"
+          p:messageProvider-ref="provider"/>
     <bean id="messageProvider"
           class="com.apress.prospring5.ch3.xml.ConfigurableMessageProvider">
         <constructor-arg value="I hope that someone gets my message in a bottle"/>
     </bean>
+    <bean id="injectSimpleConfig"
+          class="com.apress.prospring5.ch3.xml.InjectSimple"/>
+    <bean id="injectSimpleSpel"
+          class="com.apress.prospring5.ch3.xml.InjectSimple"
+          p:name="John Mayer"
+          p:age="30"
+          p:height="1.92"
+          p:programmer="false"
+          p:ageInsSeconds="1241401112"/>
+    <bean id="oracle" name="wiseworm"
+          class="com.apress.prospring5.ch3.BookwormOracle"/>
+    <bean id="injectRef"
+          class="com.apress.prospring5.ch3.xml.InjectRef">
+            <property name="oracle"
+                    ref="wiseworm"/>
+    </bean>
+    <bean id="lyricHolder"
+          class="com.apress.prospring5.ch3.xml.LyricHolder"/>
+    <bean id="injectCollection"
+          class="com.apress.prospring5.ch3.xml.CollectionInjection">
+        <property name="map">
+            <map>
+                <entry key="someValue">
+                    <value>It's a Friday, we finally made it</value>
+                </entry>
+            </map>
+        </property>
+        <property name="properties">
+            <props>
+                <prop key="firstname">John</prop>
+                <prop key="secondname">Mayer</prop>
+            </props>
+        </property>
+        <property name="set">
+            <set>
+                <value>I can't believe I get to see your face</value>
+                <ref bean="lyricHolder"/>
+            </set>
+        </property>
+        <property name="list">
+            <list>
+                <value>You've been working and I've been waiting</value>
+                <ref bean="lyricHolder"/>
+            </list>
+        </property>
+    </bean>
+
 
 </beans>

@@ -1,20 +1,12 @@
 package com.apress.prospring5.ch3.xml;
 
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.support.GenericXmlApplicationContext;
-import org.springframework.stereotype.Service;
 
-@Service("injectSimple")
 public class InjectSimple  {
-    @Value("john")
     private String name;
-    @Value("39")
     private int age;
-    @Value("1.92")
     private float height;
-    @Value("false")
     private boolean programmer;
-    @Value("1231301122")
     private Long ageInsSeconds;
 
     public static void main(String[] args) {
@@ -22,7 +14,7 @@ public class InjectSimple  {
         ctx.load("classpath:app-context-xml.xml");
         ctx.refresh();
 
-        InjectSimple simple=(InjectSimple) ctx.getBean("injectSimple");
+        InjectSimple simple=(InjectSimple) ctx.getBean("injectSimpleSpel");
         System.out.println(simple);
         ctx.close();
     }

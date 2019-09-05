@@ -18,9 +18,9 @@ public class ConstructorConfusion {
     }
     public static void main(String... args){
         GenericXmlApplicationContext ctx=new GenericXmlApplicationContext();
-        ctx.load("classpath:app-context-xml.xml");
+        ctx.load("classpath:app-context-annotation.xml");
         ctx.refresh();
-        ConstructorConfusion cc=new ConstructorConfusion("asdadsa");
+        ConstructorConfusion cc= (ConstructorConfusion)
         ctx.getBean("constructorConfusion");
         System.out.println(cc);
         ctx.close();
