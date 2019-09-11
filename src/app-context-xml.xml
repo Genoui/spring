@@ -57,6 +57,17 @@
             </list>
         </property>
     </bean>
+    <bean id="singer" class="com.apress.prospring5.ch3.Singer"
+          scope="prototype"/>
+    <bean id="abstractLookupBean"
+          class="com.apress.prospring5.ch3.AbstractLookupDemoBean">
+          <lookup-method name="getMysinger" bean="singer"/>
+    </bean>
+    <bean id="standardLookupBean"
+          class="com.apress.prospring5.ch3.StandardLookupDemoBean">
+          <property name="mySinger" ref="singer"/>
+
+    </bean>
 
 
 </beans>

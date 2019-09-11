@@ -2,35 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd09f4ea-92b9-4710-adc1-06998b7dd721" name="Default Changelist" comment="gradle">
-      <change afterPath="$PROJECT_DIR$/out/production/spring/com/apress/prospring5/ch3/annotation/ConstructorConfusion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring/com/apress/prospring5/ch3/annotation/FieldInjection.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring/com/apress/prospring5/ch3/annotation/Inspiration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring/com/apress/prospring5/ch3/annotation/Singer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/apress/prospring5/ch3/ArtworkSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/apress/prospring5/ch3/FtpArtworkSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/apress/prospring5/ch3/Recipient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/apress/prospring5/ch3/annotation/ConstructorConfusion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/apress/prospring5/ch3/annotation/FieldInjection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/apress/prospring5/ch3/annotation/Inspiration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/apress/prospring5/ch3/annotation/LyricHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/apress/prospring5/ch3/annotation/Singer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/apress/prospring5/ch3/xml/CollectionInjection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/apress/prospring5/ch3/xml/InjectRef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/apress/prospring5/ch3/xml/LyricHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/apress/prospring5/ch3/AbstractLookupDemoBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/apress/prospring5/ch3/DemoBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/apress/prospring5/ch3/LookupDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/apress/prospring5/ch3/Singer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/apress/prospring5/ch3/StandardLookupDemoBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/spring/app-context-annotation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring/app-context-annotation.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/spring/app-context-xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring/app-context-xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/spring/app-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring/app-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/spring/com/apress/prospring5/ch3/DeclareSpringComponents.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring/com/apress/prospring5/ch3/DeclareSpringComponents.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/spring/com/apress/prospring5/ch3/xml/ConstructorConfusion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring/com/apress/prospring5/ch3/xml/ConstructorConfusion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/spring/com/apress/prospring5/ch3/xml/InjectSimple.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring/com/apress/prospring5/ch3/xml/InjectSimple.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app-context-annotation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/app-context-annotation.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app-context-xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/app-context-xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/app-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/apress/prospring5/ch3/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/apress/prospring5/ch3/Container.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/apress/prospring5/ch3/xml/ConstructorConfusion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/apress/prospring5/ch3/xml/ConstructorConfusion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/apress/prospring5/ch3/xml/InjectSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/apress/prospring5/ch3/xml/InjectSimple.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,19 +35,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch3/xml/LyricHolder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="10" selection-end-column="5" />
-              <folding>
-                <element signature="e#243#244#0" expanded="true" />
-                <element signature="e#289#290#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch3/annotation/Singer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -80,11 +46,80 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch3/Singer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch3/DemoBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch3/StandardLookupDemoBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#255#256#0" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch3/AbstractLookupDemoBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+              <folding>
+                <element signature="e#192#193#0" expanded="true" />
+                <element signature="e#220#221#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app-context-xml.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="64" column="11" lean-forward="true" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch3/LookupDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch3/xml/CollectionInjection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="46" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="33" />
+            <state relative-caret-position="510">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1370#1371#0" expanded="true" />
@@ -95,64 +130,6 @@
                 <element signature="e#1565#1566#0" expanded="true" />
                 <element signature="e#1603#1604#0" expanded="true" />
                 <element signature="e#1635#1636#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch3/Container.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch3/ArtworkSender.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch3/FtpArtworkSender.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-              <folding>
-                <element signature="e#243#244#0" expanded="true" />
-                <element signature="e#270#271#0" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
-                <element signature="e#347#348#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app-context-annotation.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch3/annotation/LyricHolder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#269#270#0" expanded="true" />
-                <element signature="e#296#297#0" expanded="true" />
-                <element signature="e#410#411#0" expanded="true" />
-                <element signature="e#458#459#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -202,13 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app-context.xml" />
-        <option value="$PROJECT_DIR$/src/com/apress/prospring5/ch2/annotated/HelloWorldConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/com/apress/prospring5/ch2/annotated/HelloWorldSpringAnnotated.java" />
-        <option value="$PROJECT_DIR$/src/ch2/decoupled/MessageSupportFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/apress/prospring5/ch3/DependencyPull.java" />
-        <option value="$PROJECT_DIR$/src/com/apress/prospring5/ch2/decoupled/HelloWorldDecoupledWithFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/apress/prospring5/ch2/HelloWorldSpringDI.java" />
         <option value="$PROJECT_DIR$/src/com/apress/prospring5/ch2/decoupled/HelloWorldDecoupled.java" />
         <option value="$PROJECT_DIR$/src/com/apress/prospring5/ch3/ManagedComponent.java" />
         <option value="$PROJECT_DIR$/src/com/apress/prospring5/ch3/test.java" />
@@ -245,7 +215,6 @@
         <option value="$PROJECT_DIR$/src/com/apress/prospring5/ch3/xml/InjectSimple.java" />
         <option value="$PROJECT_DIR$/src/com/apress/prospring5/ch3/xml/InjectRef.java" />
         <option value="$PROJECT_DIR$/src/com/apress/prospring5/ch3/xml/CollectionInjection.java" />
-        <option value="$PROJECT_DIR$/src/app-context-xml.xml" />
         <option value="$PROJECT_DIR$/src/com/apress/prospring5/ch3/Recipient.java" />
         <option value="$PROJECT_DIR$/src/com/apress/prospring5/ch3/ArtworkSender.java" />
         <option value="$PROJECT_DIR$/src/com/apress/prospring5/ch3/FtpArtworkSender.java" />
@@ -253,6 +222,14 @@
         <option value="$PROJECT_DIR$/src/com/apress/prospring5/ch3/Container.java" />
         <option value="$PROJECT_DIR$/src/com/apress/prospring5/ch3/xml/LyricHolder.java" />
         <option value="$PROJECT_DIR$/src/com/apress/prospring5/ch3/annotation/LyricHolder.java" />
+        <option value="$PROJECT_DIR$/src/com/apress/prospring5/ch3/xml/CollectionInjectionDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/apress/prospring5/ch3/Singer.java" />
+        <option value="$PROJECT_DIR$/src/com/apress/prospring5/ch3/DemoBean.java" />
+        <option value="$PROJECT_DIR$/src/com/apress/prospring5/ch3/StandardLookupDemoBean.java" />
+        <option value="$PROJECT_DIR$/src/com/apress/prospring5/ch3/gedt.java" />
+        <option value="$PROJECT_DIR$/src/com/apress/prospring5/ch3/AbstractLookupDemoBean.java" />
+        <option value="$PROJECT_DIR$/src/app-context-xml.xml" />
+        <option value="$PROJECT_DIR$/src/com/apress/prospring5/ch3/LookupDemo.java" />
       </list>
     </option>
   </component>
@@ -296,6 +273,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -341,17 +320,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="xmlcon&#9;FILE&#9;file:///Users/ganhouqi/Downloads/spring/src/com/apress/prospring5/ch3/XmlConfigWithBeanFactory.java&#10;XmlC&#9;FILE&#9;file:///Users/ganhouqi/Downloads/spring/src/xml-bean-factory-config.xml&#10;Book&#9;FILE&#9;file:///Users/ganhouqi/Downloads/spring/src/com/apress/prospring5/ch3/BookwormOracle.java" />
+    <property name="SearchEverywhereHistoryKey" value="singer&#9;FILE&#9;file:///Users/ganhouqi/Downloads/spring/src/com/apress/prospring5/ch3/annotation/Singer.java&#10;Collection&#9;FILE&#9;file:///Users/ganhouqi/Downloads/spring/src/com/apress/prospring5/ch3/xml/CollectionInjection.java&#10;xmlcon&#9;FILE&#9;file:///Users/ganhouqi/Downloads/spring/src/com/apress/prospring5/ch3/XmlConfigWithBeanFactory.java&#10;XmlC&#9;FILE&#9;file:///Users/ganhouqi/Downloads/spring/src/xml-bean-factory-config.xml&#10;Book&#9;FILE&#9;file:///Users/ganhouqi/Downloads/spring/src/com/apress/prospring5/ch3/BookwormOracle.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567655102613" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568190706517" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -361,13 +338,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.apress.prospring5.ch3" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
@@ -383,26 +360,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CollectionInjection">
+  <component name="RunManager" selected="Application.LookupDemo">
     <configuration name="CollectionInjection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.apress.prospring5.ch3.xml.CollectionInjection" />
       <module name="spring" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.apress.prospring5.ch3.xml.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConstructorConfusion (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.apress.prospring5.ch3.annotation.ConstructorConfusion" />
-      <module name="spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.apress.prospring5.ch3.annotation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -449,20 +413,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LookupDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.apress.prospring5.ch3.LookupDemo" />
+      <module name="spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.apress.prospring5.ch3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.ConstructorConfusion (1)" />
       <item itemvalue="Application.FieldInjection" />
       <item itemvalue="Application.InjectSimple" />
       <item itemvalue="Application.InjectRef" />
       <item itemvalue="Application.CollectionInjection" />
+      <item itemvalue="Application.LookupDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LookupDemo" />
         <item itemvalue="Application.CollectionInjection" />
         <item itemvalue="Application.InjectRef" />
         <item itemvalue="Application.InjectSimple" />
         <item itemvalue="Application.FieldInjection" />
-        <item itemvalue="Application.ConstructorConfusion (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -502,7 +479,8 @@
       <workItem from="1567582955194" duration="7154000" />
       <workItem from="1567591080040" duration="717000" />
       <workItem from="1567645045111" duration="677000" />
-      <workItem from="1567647741559" duration="4364000" />
+      <workItem from="1567647741559" duration="4520000" />
+      <workItem from="1568081419408" duration="7683000" />
     </task>
     <task id="LOCAL-00001" summary="更新了配置文件">
       <created>1566921276424</created>
@@ -550,7 +528,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57857000" />
+    <option name="totallyTimeSpent" value="65696000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -565,7 +543,7 @@
     <frame x="0" y="23" width="1605" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.271913" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27511197" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -574,7 +552,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4984005" weight="0.32941177" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4984005" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -583,8 +561,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32941177" />
       <window_info anchor="bottom" id="Spring" order="9" weight="0.32941177" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4984005" weight="0.32834226" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5015995" side_tool="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4977607" weight="0.32834226" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5022393" side_tool="true" weight="0.32834226" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32941177" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -637,56 +615,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="gradle" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch2/decoupled/HelloWorldDecoupledWithFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch2/HelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch2/HelloWorldSpringDI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch2/decoupled/HelloWorldDecoupled.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch3/ManagedComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch3/test.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch3/DependencyPull.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch3/ContextualizedDependencyLookup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch3/Dependency.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -736,9 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="14" column="35" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -763,9 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding>
-            <element signature="e#214#215#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -787,12 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding>
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -800,13 +716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -814,9 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -838,9 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -855,10 +758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -873,15 +772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -926,57 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app-context-xml.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch3/XmlConfigWithBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch3/Recipient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app-context-annotation.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch3/FtpArtworkSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding>
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch3/ArtworkSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -991,10 +830,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch3/xml/LyricHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch3/Container.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch3/ArtworkSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch3/FtpArtworkSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app-context-annotation.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch3/annotation/LyricHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch3/Recipient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch3/XmlConfigWithBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-context-4.3.18.RELEASE.jar!/org/springframework/context/annotation/ImportResource.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch3/xml/CollectionInjectionDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch3/xml/CollectionInjection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1370#1371#0" expanded="true" />
+            <element signature="e#1400#1401#0" expanded="true" />
+            <element signature="e#1456#1457#0" expanded="true" />
+            <element signature="e#1500#1501#0" expanded="true" />
+            <element signature="e#1535#1536#0" expanded="true" />
+            <element signature="e#1565#1566#0" expanded="true" />
+            <element signature="e#1603#1604#0" expanded="true" />
+            <element signature="e#1635#1636#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1008,45 +930,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch3/xml/LyricHolder.java">
+    <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch3/Singer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch3/gedt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch3/DemoBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch3/StandardLookupDemoBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch3/AbstractLookupDemoBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="10" selection-end-column="5" />
+          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
           <folding>
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch3/annotation/LyricHolder.java">
+    <entry file="file://$PROJECT_DIR$/src/app-context-xml.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="370">
+          <caret line="64" column="11" lean-forward="true" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch3/xml/CollectionInjection.java">
+    <entry file="file://$PROJECT_DIR$/src/com/apress/prospring5/ch3/LookupDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="46" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="33" />
+        <state relative-caret-position="240">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1370#1371#0" expanded="true" />
-            <element signature="e#1400#1401#0" expanded="true" />
-            <element signature="e#1456#1457#0" expanded="true" />
-            <element signature="e#1500#1501#0" expanded="true" />
-            <element signature="e#1535#1536#0" expanded="true" />
-            <element signature="e#1565#1566#0" expanded="true" />
-            <element signature="e#1603#1604#0" expanded="true" />
-            <element signature="e#1635#1636#0" expanded="true" />
           </folding>
         </state>
       </provider>
