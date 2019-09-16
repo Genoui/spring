@@ -68,6 +68,16 @@
           <property name="mySinger" ref="singer"/>
 
     </bean>
+    <bean id="methodReplacer"
+          class="com.apress.prospring5.ch3.formatMessageReplacer"/>
+    <bean id="replacementTarget"
+          class="com.apress.prospring5.ch3.ReplacementTarget">
+        <replaced-method name="formatMessage" replacer="methodReplacer">
+            <arg-type>String</arg-type>
+        </replaced-method>
+    </bean>
+    <bean id="standardTarget"
+          class="com.apress.prospring5.ch3.ReplacementTarget"/>
 
 
 </beans>
